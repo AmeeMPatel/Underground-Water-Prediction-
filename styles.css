@@ -1,13 +1,13 @@
 /* Reset basic styles to ensure consistency */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 100px;
+    padding: 100px;
     box-sizing: border-box;
 }
 
 /* Apply a light background and consistent font style */
 body {
-    background-color: #8A2BE2; /* BlueViolet background */
+    background-color: #00FFFF; /* Aqua background */
     font-family: Arial, sans-serif; /* Standard font */
     color: #333; /* Dark text color */
 }
@@ -16,7 +16,7 @@ body {
 .header {
     text-align: center; /* Centered content */
     padding: 80px; /* Padding for spacing */
-    background-color: #B22222; /* FireBrick */
+    background-color: #663399; /* RebeccaPurple */
     color: white; /* White text */
 }
 
@@ -25,24 +25,24 @@ body {
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Arrange boxes vertically */
     align-items: center; /* Center-align the boxes */
-    gap: 30px; /* Space between boxes */
-    padding: 70px; /* Padding around the section */
+    gap: 200px; /* Space between boxes */
+    padding: 100px; /* Padding around the section */
 }
 
 /* Box design for each model */
 .model-box {
-    background-color: #e0f7fa; /* Light blue shade */
-    border: 2px solid #00acc1; /* Blue border */
+    background-color: #8A2BE2; /* BlueViolet shade */
+    border: 2px solid 	#4B0082; /* Indigo border */
     padding: 300px; /* Padding within the box */
     text-align: center; /* Centered text */
-    border-radius: 40px; /* Rounded corners */
-    width: 150%; /* Set a consistent width for each box */
+    border-radius: 60px; /* Rounded corners */
+    width: 200%; /* Set a consistent width for each box */
     max-width: 500px; /* Maximum width to ensure consistency */
     transition: 0.5s; /* Smooth transition on hover */
 }
 
 .model-box:hover {
-    background-color: #9370DB; /* MediumPurple on hover */
+    background-color: #00BFFF; /* DeepSkyBlue on hover */
     
 
 }
@@ -52,21 +52,21 @@ body {
     display: inline-block; /* Display as an inline block */
     text-decoration: none; /* No underlining */
     color: white; /* White text */
-    background-color: #007acc; /* Blue shade for buttons */
-    padding: 20px 40px; /* Padding for the button */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #00FFFF; /* Cyan shade for buttons */
+    padding: 40px 80px; /* Padding for the button */
+    border-radius: 10px; /* Rounded corners */
     transition: 0.3s; /* Smooth transition on hover */
 }
 
 .btn:hover {
-    background-color: #9370DB; /* MediumPurple on hover */
+    background-color: #00FF00; /* Lime on hover */
 }
 
 /* Footer with a darker blue gradient */
 .footer {
     text-align: center; /* Centered content */
-    padding: 20px; /* Padding for spacing */
-    background-color: #9932CC; /* DarkOrchid background */
+    padding: 1000px; /* Padding for spacing */
+    background-color: #FF00FF; /* Magenta background */
     
 
     color: white; /* White text for contrast */
