@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Reset basic styles for consistency */
 * {
     margin: 0;
@@ -12,48 +14,46 @@ body {
     color: #333; /* Dark text color for readability */
 }
 
-/* Header section with blue background and white text */
+/* Header section with a blue background and white text */
 .header {
     text-align: center; /* Centered content */
     padding: 30px; /* Padding for spacing */
-    background-color: #005f99; /* Dark blue shade */
+    background-color: #005f99; /* Blue shade */
     color: white; /* White text for contrast */
 }
 
-/* Section with vertically-aligned model boxes */
+/* Section containing model boxes */
 .models {
     display: flex; /* Use flex layout */
-    flex-direction: column; /* Arrange boxes vertically */
-    align-items: center; /* Center-align the boxes */
+    justify-content: center; /* Center the boxes */
+    align-items: center; /* Align vertically */
     gap: 20px; /* Space between boxes */
-    padding: 40px; /* Padding around the section */
+    padding: 40px; /* Padding for spacing */
 }
 
 /* Box design for each model */
 .model-box {
     background-color: #e0f7fa; /* Light blue background */
-    border: 1px solid #00acc1; /* Light blue border */
+    border: 1px solid #00acc1; /* Blue border */
     padding: 20px; /* Padding within the box */
-    width: 50%; /* Set a consistent width */
-    max-width: 400px; /* Maximum width to ensure consistency */
+    width: 200px; /* Set a consistent width */
     text-align: center; /* Centered text */
     border-radius: 10px; /* Rounded corners */
-    transition: 0.3s; /* Smooth transition on hover */
+    transition: 0.3s; /* Smooth transition */
 }
 
 .model-box:hover {
     background-color: #b2ebf2; /* Lighter blue on hover */
 }
 
-/* Button styling for links to Google Colab */
+/* Button styling for links to Colab */
 .btn {
     display: inline-block; /* Display as inline block */
-    text-decoration: none; /* No underlining */
+    text-decoration: none; /* Remove underline */
     color: white; /* White text */
     background-color: #007acc; /* Distinct blue shade */
     padding: 10px 20px; /* Padding for the button */
     border-radius: 5px; /* Rounded corners */
-    transition: 0.3s; /* Smooth transition */
 }
 
 .btn:hover {
@@ -65,6 +65,6 @@ body {
     text-align: center; /* Centered content */
     padding: 20px; /* Padding for spacing */
     background-color: #004080; /* Dark blue background */
-    color: white; /* White text for contrast */
+    color: black; /* black text */
     font-size: 1em; /* Standard font size */
 }
