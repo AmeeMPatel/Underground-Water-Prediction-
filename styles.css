@@ -5,65 +5,66 @@
     box-sizing: border-box;
 }
 
-/* Light aqua background and consistent font style */
+/* Apply a consistent background color and text style */
 body {
-    background-color: #00FFFF; /* Aqua */
-    font-family: Arial, sans-serif; /* Default font */
-    color: #333; /* Dark text for readability */
+    background-color: #f5f5f5; /* Light background */
+    font-family: Arial, sans-serif; /* Standard font */
+    color: #333; /* Dark text color for readability */
 }
 
-/* Header with centered content and RebeccaPurple background */
+/* Header section with blue background and white text */
 .header {
     text-align: center; /* Centered content */
-    padding: 40px; /* Padding for spacing */
-    background-color: #663399; /* RebeccaPurple */
+    padding: 30px; /* Padding for spacing */
+    background-color: #005f99; /* Dark blue shade */
     color: white; /* White text for contrast */
 }
 
-/* Section containing vertical model boxes */
+/* Section with vertically-aligned model boxes */
 .models {
-    display: flex; /* Flexbox layout */
-    flex-direction: column; /* Vertical arrangement */
-    align-items: center; /* Center the boxes */
-    gap: 30px; /* Reduced gap between boxes */
-    padding: 20px; /* Padding for spacing */
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Arrange boxes vertically */
+    align-items: center; /* Center-align the boxes */
+    gap: 20px; /* Space between boxes */
+    padding: 40px; /* Padding around the section */
 }
 
-/* Design for each model box with BlueViolet background */
+/* Box design for each model */
 .model-box {
-    background-color: #8A2BE2; /* BlueViolet */
-    border: 2px solid #4B0082; /* Indigo border */
-    padding: 30px; /* Padding within the box */
+    background-color: #e0f7fa; /* Light blue background */
+    border: 1px solid #00acc1; /* Light blue border */
+    padding: 20px; /* Padding within the box */
+    width: 50%; /* Set a consistent width */
+    max-width: 400px; /* Maximum width to ensure consistency */
     text-align: center; /* Centered text */
-    border-radius: 20px; /* Rounded corners */
-    width: 50%; /* Consistent width */
-    max-width: 400px; /* Increased maximum width */
-    transition: 0.5s; /* Smooth transition on hover */
+    border-radius: 10px; /* Rounded corners */
+    transition: 0.3s; /* Smooth transition on hover */
 }
 
 .model-box:hover {
-    background-color: #00BFFF; /* DeepSkyBlue on hover */
+    background-color: #b2ebf2; /* Lighter blue on hover */
 }
 
-/* Button styling within the model boxes */
+/* Button styling for links to Google Colab */
 .btn {
     display: inline-block; /* Display as inline block */
     text-decoration: none; /* No underlining */
     color: white; /* White text */
-    background-color: #00FFFF; /* Cyan shade for buttons */
+    background-color: #007acc; /* Distinct blue shade */
     padding: 10px 20px; /* Padding for the button */
     border-radius: 5px; /* Rounded corners */
     transition: 0.3s; /* Smooth transition */
 }
 
 .btn:hover {
-    background-color: #00FF00; /* Lime on hover */
+    background-color: #005f8c; /* Darker blue on hover */
 }
 
-/* Footer with centered content and Magenta background */
+/* Footer section with a darker blue background */
 .footer {
-    text-align: center; /* Centered text */
-    padding: 20px; /* Increased padding for better spacing */
-    background-color: #FF00FF; /* Magenta background */
+    text-align: center; /* Centered content */
+    padding: 20px; /* Padding for spacing */
+    background-color: #004080; /* Dark blue background */
     color: white; /* White text for contrast */
+    font-size: 1em; /* Standard font size */
 }
