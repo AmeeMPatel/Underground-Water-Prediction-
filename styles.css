@@ -1,66 +1,71 @@
+
 /* styles.css */
 
-
+/* Reset basic styles for consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply the background image to the header section */
-.hero {
-    background-image: url('https://media.istockphoto.com/id/479269022/photo/underwater-splashes.jpg?s=612x612&w=0&k=20&c=XPHBBYjFIVvskPcN1ou1m_Lv4CH7BLAurj4ZaAl1Ai8='); /* URL to the background image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    background-position: center; /* Center the image for a balanced look */
-    text-align: center;
-    color: white; /* Ensure text is visible against the background */
-    padding: 50px; /* Add space for a more balanced layout */
-}
-
+/* Apply a consistent background color and text style */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Light background for a clean look */
-    color: #333; /* Text color for good readability */
-    padding: 20px;
+    background-color: #f5f5f5; /* Light background */
+    font-family: Arial, sans-serif; /* Standard font */
+    color: #333; /* Dark text color for readability */
 }
 
-/* Header section with title and description */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #e0e0e0; /* Light gray for a subtle contrast */
+/* Header section with a blue background and white text */
+.header {
+    text-align: center; /* Centered content */
+    padding: 30px; /* Padding for spacing */
+    background-color: #005f99; /* Blue shade */
+    color: white; /* White text for contrast */
 }
 
-/* Navigation with styled links */
-nav {
-    text-align: center;
-    margin: 20px 0;
+/* Section containing model boxes */
+.models {
+    display: flex; /* Use flex layout */
+    justify-content: center; /* Center the boxes */
+    align-items: center; /* Align vertically */
+    gap: 20px; /* Space between boxes */
+    padding: 40px; /* Padding for spacing */
 }
 
-nav ul {
-    list-style: none;
+/* Box design for each model */
+.model-box {
+    background-color: #e0f7fa; /* Light blue background */
+    border: 1px solid #00acc1; /* Blue border */
+    padding: 20px; /* Padding within the box */
+    width: 200px; /* Set a consistent width */
+    text-align: center; /* Centered text */
+    border-radius: 10px; /* Rounded corners */
+    transition: 0.3s; /* Smooth transition */
 }
 
-nav ul li {
-    display: inline; /* Horizontal list */
-    margin-right: 20px;
+.model-box:hover {
+    background-color: #b2ebf2; /* Lighter blue on hover */
 }
 
-nav ul li a {
+/* Button styling for links to Colab */
+.btn {
+    display: inline-block; /* Display as inline block */
     text-decoration: none; /* Remove underline */
-    color: #007acc; /* Blue link color */
-    font-weight: bold;
+    color: white; /* White text */
+    background-color: #007acc; /* Distinct blue shade */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
 }
 
-nav ul li a:hover {
-    color: #005f8c; /* Darker blue on hover */
+.btn:hover {
+    background-color: #005f8c; /* Darker blue on hover */
 }
 
-/* Footer section with copyright notice */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #e0e0e0;
-    font-size: 0.8em;
-    color: #555; /* Darker gray for footer text */
+/* Footer section with a darker blue background */
+.footer {
+    text-align: center; /* Centered content */
+    padding: 20px; /* Padding for spacing */
+    background-color: #004080; /* Dark blue background */
+    color: white; /* White text */
+    font-size: 1em; /* Standard font size */
 }
