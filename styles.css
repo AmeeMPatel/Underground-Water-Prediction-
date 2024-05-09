@@ -1,71 +1,71 @@
-
-/* styles.css */
-
-/* Reset basic styles for consistency */
+/* Reset basic styles to ensure consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply a consistent background color and text style */
+/* Apply a light background and consistent font style */
 body {
-    background-color: #f5f5f5; /* Light background */
+    background-color: #8A2BE2; /* BlueViolet background */
     font-family: Arial, sans-serif; /* Standard font */
-    color: #333; /* Dark text color for readability */
+    color: #333; /* Dark text color */
 }
 
-/* Header section with a blue background and white text */
+/* Header with a blue background and centered content */
 .header {
     text-align: center; /* Centered content */
     padding: 30px; /* Padding for spacing */
     background-color: #005f99; /* Blue shade */
-    color: white; /* White text for contrast */
+    color: white; /* White text */
 }
 
-/* Section containing model boxes */
+/* Section containing vertical boxes */
 .models {
-    display: flex; /* Use flex layout */
-    justify-content: center; /* Center the boxes */
-    align-items: center; /* Align vertically */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Arrange boxes vertically */
+    align-items: center; /* Center-align the boxes */
     gap: 20px; /* Space between boxes */
-    padding: 40px; /* Padding for spacing */
+    padding: 40px; /* Padding around the section */
 }
 
 /* Box design for each model */
 .model-box {
-    background-color: #e0f7fa; /* Light blue background */
+    background-color: #e0f7fa; /* Light blue shade */
     border: 1px solid #00acc1; /* Blue border */
     padding: 20px; /* Padding within the box */
-    width: 200px; /* Set a consistent width */
     text-align: center; /* Centered text */
     border-radius: 10px; /* Rounded corners */
-    transition: 0.3s; /* Smooth transition */
+    width: 80%; /* Set a consistent width for each box */
+    max-width: 400px; /* Maximum width to ensure consistency */
+    transition: 0.3s; /* Smooth transition on hover */
 }
 
 .model-box:hover {
     background-color: #b2ebf2; /* Lighter blue on hover */
 }
 
-/* Button styling for links to Colab */
+/* Button styling within the boxes */
 .btn {
-    display: inline-block; /* Display as inline block */
-    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as an inline block */
+    text-decoration: none; /* No underlining */
     color: white; /* White text */
-    background-color: #007acc; /* Distinct blue shade */
+    background-color: #007acc; /* Blue shade for buttons */
     padding: 10px 20px; /* Padding for the button */
     border-radius: 5px; /* Rounded corners */
+    transition: 0.3s; /* Smooth transition on hover */
 }
 
 .btn:hover {
     background-color: #005f8c; /* Darker blue on hover */
 }
 
-/* Footer section with a darker blue background */
+/* Footer with a darker blue gradient */
 .footer {
     text-align: center; /* Centered content */
     padding: 20px; /* Padding for spacing */
-    background-color: #004080; /* Dark blue background */
-    color: white; /* White text */
-    font-size: 1em; /* Standard font size */
+    background-color: #9932CC; /* DarkOrchid background */
+    
+
+    color: white; /* White text for contrast */
 }
