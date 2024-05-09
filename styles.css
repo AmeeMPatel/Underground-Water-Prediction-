@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+/* Apply the background image to the header section */
+.hero {
+    background-image: url('https://media.istockphoto.com/id/479269022/photo/underwater-splashes.jpg?s=612x612&w=0&k=20&c=XPHBBYjFIVvskPcN1ou1m_Lv4CH7BLAurj4ZaAl1Ai8='); /* URL to the background image */
+    background-size: cover; /* Scale the image to cover the entire area */
+    background-position: center; /* Center the image for a balanced look */
+    text-align: center;
+    color: white; /* Ensure text is visible against the background */
+    padding: 50px; /* Add space for a more balanced layout */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5; /* Light background for a clean look */
