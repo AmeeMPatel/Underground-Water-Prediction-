@@ -1,73 +1,69 @@
-/* Reset basic styles to ensure consistency */
+/* Reset basic styles for consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply a light background and consistent font style */
+/* Light aqua background and consistent font style */
 body {
-    background-color: #00FFFF; /* Aqua background */
-    font-family: Arial, sans-serif; /* Standard font */
-    color: #333; /* Dark text color */
+    background-color: #00FFFF; /* Aqua */
+    font-family: Arial, sans-serif; /* Default font */
+    color: #333; /* Dark text for readability */
 }
 
-/* Header with a FireBrick background and centered content */
+/* Header with centered content and RebeccaPurple background */
 .header {
     text-align: center; /* Centered content */
     padding: 40px; /* Padding for spacing */
     background-color: #663399; /* RebeccaPurple */
-    color: white; /* White text */
+    color: white; /* White text for contrast */
 }
 
-/* Section containing vertical boxes */
+/* Section containing vertical model boxes */
 .models {
     display: flex; /* Flexbox layout */
-    flex-direction: column; /* Arrange boxes vertically */
-    align-items: center; /* Center-align the boxes */
-    gap: 50px; /* Space between boxes */
-    padding: 10px; /* Padding around the section */
+    flex-direction: column; /* Vertical arrangement */
+    align-items: center; /* Center the boxes */
+    gap: 30px; /* Reduced gap between boxes */
+    padding: 20px; /* Padding for spacing */
 }
 
-/* Box design for each model */
+/* Design for each model box with BlueViolet background */
 .model-box {
-    background-color: #8A2BE2; /* BlueViolet shade */
-    border: 2px solid 	#4B0082; /* Indigo border */
+    background-color: #8A2BE2; /* BlueViolet */
+    border: 2px solid #4B0082; /* Indigo border */
     padding: 30px; /* Padding within the box */
     text-align: center; /* Centered text */
     border-radius: 20px; /* Rounded corners */
-    width: 40%; /* Set a consistent width for each box */
-    max-width: 300px; /* Maximum width to ensure consistency */
+    width: 50%; /* Consistent width */
+    max-width: 400px; /* Increased maximum width */
     transition: 0.5s; /* Smooth transition on hover */
 }
 
 .model-box:hover {
     background-color: #00BFFF; /* DeepSkyBlue on hover */
-    
-
 }
 
-/* Button styling within the boxes */
+/* Button styling within the model boxes */
 .btn {
-    display: inline-block; /* Display as an inline block */
+    display: inline-block; /* Display as inline block */
     text-decoration: none; /* No underlining */
     color: white; /* White text */
     background-color: #00FFFF; /* Cyan shade for buttons */
     padding: 10px 20px; /* Padding for the button */
     border-radius: 5px; /* Rounded corners */
-    transition: 0.3s; /* Smooth transition on hover */
+    transition: 0.3s; /* Smooth transition */
 }
 
 .btn:hover {
     background-color: #00FF00; /* Lime on hover */
 }
 
-/* Footer with a darker blue gradient */
+/* Footer with centered content and Magenta background */
 .footer {
-    text-align: center; /* Centered content */
-    padding: 10px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Increased padding for better spacing */
     background-color: #FF00FF; /* Magenta background */
-    
-
     color: white; /* White text for contrast */
 }
