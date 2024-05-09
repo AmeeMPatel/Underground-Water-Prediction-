@@ -1,7 +1,7 @@
 /* Reset basic styles to ensure consistency */
 * {
-    margin: 100px;
-    padding: 100px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 /* Header with a FireBrick background and centered content */
 .header {
     text-align: center; /* Centered content */
-    padding: 80px; /* Padding for spacing */
+    padding: 40px; /* Padding for spacing */
     background-color: #663399; /* RebeccaPurple */
     color: white; /* White text */
 }
@@ -25,19 +25,19 @@ body {
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Arrange boxes vertically */
     align-items: center; /* Center-align the boxes */
-    gap: 200px; /* Space between boxes */
-    padding: 100px; /* Padding around the section */
+    gap: 50px; /* Space between boxes */
+    padding: 10px; /* Padding around the section */
 }
 
 /* Box design for each model */
 .model-box {
     background-color: #8A2BE2; /* BlueViolet shade */
     border: 2px solid 	#4B0082; /* Indigo border */
-    padding: 300px; /* Padding within the box */
+    padding: 30px; /* Padding within the box */
     text-align: center; /* Centered text */
-    border-radius: 60px; /* Rounded corners */
-    width: 200%; /* Set a consistent width for each box */
-    max-width: 500px; /* Maximum width to ensure consistency */
+    border-radius: 20px; /* Rounded corners */
+    width: 40%; /* Set a consistent width for each box */
+    max-width: 300px; /* Maximum width to ensure consistency */
     transition: 0.5s; /* Smooth transition on hover */
 }
 
@@ -53,8 +53,8 @@ body {
     text-decoration: none; /* No underlining */
     color: white; /* White text */
     background-color: #00FFFF; /* Cyan shade for buttons */
-    padding: 40px 80px; /* Padding for the button */
-    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
     transition: 0.3s; /* Smooth transition on hover */
 }
 
@@ -65,7 +65,7 @@ body {
 /* Footer with a darker blue gradient */
 .footer {
     text-align: center; /* Centered content */
-    padding: 1000px; /* Padding for spacing */
+    padding: 10px; /* Padding for spacing */
     background-color: #FF00FF; /* Magenta background */
     
 
