@@ -1,66 +1,72 @@
-/* styles.css */
-
-
+/* Reset basic styles to ensure consistency */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply the background image to the header section */
-.hero {
-    background-image: url('https://media.istockphoto.com/id/479269022/photo/underwater-splashes.jpg?s=612x612&w=0&k=20&c=XPHBBYjFIVvskPcN1ou1m_Lv4CH7BLAurj4ZaAl1Ai8='); /* URL to the background image */
-    background-size: cover; /* Scale the image to cover the entire area */
-    background-position: center; /* Center the image for a balanced look */
-    text-align: center;
-    color: white; /* Ensure text is visible against the background */
-    padding: 50px; /* Add space for a more balanced layout */
-}
-
+/* Define a clean background and consistent text color for the body */
+<style>
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Light background for a clean look */
-    color: #333; /* Text color for good readability */
-    padding: 20px;
+  background-image: url('waterbg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+/* Header with a background image and blue shade */
+.header {
+    background-image: url('YOUR_IMAGE_URL'); /* Background image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: white; /* White text on the header */
+    padding: 50px; /* Padding for balanced layout */
+    text-align: center; /* Centered text */
+    background-color: #005f99; /* Dark blue shade */
 }
 
-/* Header section with title and description */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #e0e0e0; /* Light gray for a subtle contrast */
+/* Models section with purple and green shades */
+.models {
+    padding: 30px; /* Padding for spacing */
+    text-align: center; /* Centered content */
+    background: linear-gradient(to right, #6a11cb, #00c853); /* Purple to green gradient */
+    color: white; /* White text for contrast */
 }
 
-/* Navigation with styled links */
-nav {
-    text-align: center;
-    margin: 20px 0;
+.models h2 {
+    font-size: 2em; /* Larger font size for emphasis */
 }
 
-nav ul {
-    list-style: none;
+.models ul {
+    list-style: none; /* No bullet points */
+    padding: 0;
 }
 
-nav ul li {
-    display: inline; /* Horizontal list */
-    margin-right: 20px;
+.models ul li {
+    display: inline-block; /* Display inline */
+    margin: 15px; /* Spacing between list items */
+    padding: 15px; /* Padding within list items */
+    background: rgba(255, 255, 255, 0.2); /* Translucent background */
+    border-radius: 5px; /* Rounded corners */
 }
 
-nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: #007acc; /* Blue link color */
-    font-weight: bold;
+.models ul li a {
+    text-decoration: none; /* No underlining */
+    color: #0066cc; /* Distinct blue color for links */
+    font-weight: bold; /* Bold font for links */
 }
 
-nav ul li a:hover {
-    color: #005f8c; /* Darker blue on hover */
+.models ul li a:hover {
+    color: #004080; /* Darker blue on hover */
+    transition: 0.3s; /* Smooth transition */
 }
 
-/* Footer section with copyright notice */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #e0e0e0;
-    font-size: 0.8em;
-    color: #555; /* Darker gray for footer text */
+/* Footer with a darker blue gradient */
+.footer {
+    text-align: center; /* Centered text */
+    padding: 15px; /* Padding for spacing */
+    background: linear-gradient(to right, #002147, #004080); /* Dark blue gradient */
+    font-size: 1em; /* Standard font size */
+    color: white; /* White text for contrast */
 }
