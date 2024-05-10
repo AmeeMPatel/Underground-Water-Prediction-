@@ -65,6 +65,6 @@ body {
     text-align: center; /* Centered content */
     padding: 20px; /* Padding for spacing */
     background-color: #004080; /* Dark blue background */
-    color: #FFFFFF; /* white text */
-    font-size: 2em; /* Standard font size */
+    color: white; /* White text for contrast */
+    font-size: 1em;
 }
