@@ -63,8 +63,8 @@ body {
 /* Footer section with a darker blue background */
 .footer {
     text-align: center; /* Centered content */
-    padding: 20px; /* Padding for spacing */
+    padding: 40px; /* Padding for spacing */
     background-color: #004080; /* Dark blue background */
-    color: black; /* black text */
-    font-size: 1em; /* Standard font size */
+    color: white; /* white text */
+    font-size: 2em; /* Standard font size */
 }
